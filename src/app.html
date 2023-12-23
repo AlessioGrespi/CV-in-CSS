@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+		<meta name="viewport" content="height=891px, width=630px, initial-scale=1" />
+		<style>
+			@page {
+			  size: A4;
+			  /* margin: 0; */
+			}
+			@media print {
+			  html, body {
+				width: 210mm;
+				height: 297mm;
+
+			  }
+			  /* ... the rest of the rules ... */
+			}
+			</style>
+			
+		%sveltekit.head%
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">%sveltekit.body%</div>
+	</body>
+</html>
