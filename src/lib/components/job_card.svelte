@@ -1,12 +1,12 @@
-<div class="flex w-full justify-between">
-	<div class="w-1/6 flex justify-center">
+<div class="flex w-full justify-between mx-0.5 my-1 bg-slate-200 rounded py-1">
+	<div class="flex justify-center items-center w-24">
 		<slot name='logo'/>
 	</div>
-	<div class="flex flex-col w-5/6">
+	<div class="flex flex-col w-11/12">
 		<h4 class="text-slate-400"><slot name="job-position" /></h4>
 		<div class="flex">
 			<h3><slot name="company" /></h3>
-			<h4 class="pl-1 font-semibold text-slate-300 self-center tracking-tighter">
+			<h4 class="pl-1 font-semibold text-slate-400 self-center tracking-tighter">
 				<slot name="job-dates" />
 			</h4>
 		</div>
