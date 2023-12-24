@@ -2,7 +2,7 @@
 	import '../app.css';
 </script>
 
-<body class="page font-sans h-full w-full bg-slate-50">
+<body class="page font-sans h-full w-full py-2 ">
     <slot />
 </body>
 

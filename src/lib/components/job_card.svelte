@@ -1,4 +1,4 @@
-<div class="flex w-full justify-between mx-0.5 my-1 bg-slate-200 rounded py-1">
+<div class="flex w-full justify-between mx-0.5 mb-0.5 rounded py-1">
 	<div class="flex justify-center items-center w-24">
 		<slot name='logo'/>
 	</div>
